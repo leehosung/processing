@@ -1,4 +1,4 @@
-//Drawing rects, quads, triangles, ans polys
+//Drawing rects, quads, triangles, and polys
 
 //setup
 size(600, 400);
