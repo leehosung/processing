@@ -19,15 +19,16 @@ void draw(){
   //gridY and gridX
   for(int gridY = 0; gridY < height; gridY+=stepY){
     for(int gridX = 0; gridX < width; gridX+=stepX){
+      noStroke();
       fill(gridX, height-gridY, 100);
       rect(gridX, gridY, stepX, stepY);
-    } 
+    }
   }
 }
 
 //keyPressed()
 void keyPressed(){
   if (key=='s' || key=='S'){
-    saveFrame("screenshot.png")
+    saveFrame("screenshot.png");
   }
 }
